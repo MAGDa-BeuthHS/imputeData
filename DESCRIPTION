@@ -1,0 +1,18 @@
+Package: imputeData
+Type: Package
+Title: Read timeseries from csv-files and impute missing Data
+Version: 0.1.0
+Author: person("Salka", "Waterloo", email = "salka.waterloo@gmail.com",
+    role = c("aut", "cre"))
+Description: Read timeseries from csv-files and impute missing Data
+    Imputation techniques depend on gapsizes
+License: CC0
+Maintainer: Salka Waterloo <salka.waterloo@gmail.com>
+Encoding: UTF-8
+LazyData: true
+Imports:
+    data.table,
+    imputeTS,
+    zoo,
+    timeDate
+RoxygenNote: 5.0.1
